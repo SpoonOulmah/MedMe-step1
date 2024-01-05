@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+    {% block title %}
+        Quize
+    {% endblock %}
+
+    {% block main %}
+
+    <form action="/quize" method="post">
+
+        <div class="col-md-10 mx-auto col-lg-5">
+            <h5 class="h6">Basic sciences > Biochemistry</h5>
+            <h2 name="question_number"> Question No. {{ number }}</h2>
+            <hr>
+            <h5 name="question">{{ question }}</h5>
+            <select name="answer" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                {% for answer in answers %}
+                <option id="answer" class="answer" value="{{ answer }}">{{ answer }}</option><br>
+                {% endfor %}
+            </select>
+            <button type="submit" class="btn btn-primary">Check the answer</button>
+
+        </div>
+
+    </form>
+
+    {% endblock %}
