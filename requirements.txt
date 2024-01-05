@@ -4,6 +4,3 @@ Flask-Session
 requests
 datetime‎
 pytz
-subprocess
-urllib
-uuid
