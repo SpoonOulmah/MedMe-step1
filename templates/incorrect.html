@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+    {% block title %}
+        Correct message
+    {% endblock %}
+
+    {% block main %}
+
+    <div class="col-md-10 mx-auto col-lg-5">
+        <form action="/incorrect" method="POST">
+            <h5 class="h6 text-secondary">Basic sciences > Biochemistry</h5>
+            <p class="h4">The correct answer is: <span class="btn btn-outline-success text-start">{{ answer }}</span></p>
+            <p class="h6 text-danger">Your answer was wrong; Not relevant to the reasoning</p>
+            <hr>
+            <h5>Explaination:</h5>
+            <div class="b-example-divider"></div>
+            <p class="btn btn-light text-start"> {{ explaination }}</p>
+            <div class="b-example-divider"></div>
+            <button type="submit" class="btn btn-primary">Next question</button>
+        </form>
+    </div>
+
+    {% endblock %}
