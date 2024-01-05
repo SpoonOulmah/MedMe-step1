@@ -239,7 +239,3 @@ def profile():
 
 
         return render_template("profile.html", correct=correct_precentage, incorrect=incorrect_precentage, total_questions=total_questions, name=name)
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0')
