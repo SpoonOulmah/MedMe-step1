@@ -1,11 +1,11 @@
 # KUMLS QUESTION BOOK
 #### Video Demo: https://www.youtube.com/watch?v=mzI3ixBM7uM
-#### Description: Question book for Biomedical students. 
+#### Description: Personal project, a Question Book for Biomedical students pears, University of Khartoum. 
 
 # KUMLS (Khartoum University Medical Labrotary Sciecnes)
 
 ## CS50
->This was my final project for conclude the CS50 Introduction to Computer Sciense course.
+>This was my final project to conclude the CS50's Introduction to Computer Sciense course.
 
 >CS50 library for python, python, flask, flask web framework, bootstraps, web development, CS50
 ## Features
