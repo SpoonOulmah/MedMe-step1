@@ -1,8 +1,8 @@
-# KUMLS QUESTION BOOK
+# MedMe QUESTION BOOK
 #### Video Demo: The demo have been removed from Youtube.
 #### Description: Personal project, a Question Book for Biomedical students pears, University of Khartoum. 
 
-# KUMLS (Khartoum University Medical Labrotary Sciecnes)
+# MedMe 
 
 ## CS50
 >This was my final project to conclude the CS50's Introduction to Computer Sciense course.
